@@ -1,4 +1,4 @@
-# o365-acquisition
+# o365-collect
 
 A collection of scripts that will help to acquire data, such lists of contacts and s e-mail contents, from office365 tenants. These acquisition scripts are written in python and use the [python O365](https://github.com/O365/python-o365) library. To be able to use these scripts, access to the Office 365 is needed and therefore an App Registration in Azure Active Directory (AAD) must be setup. See the [documentation](docs/HOWTO.md) on how to do this.
 
@@ -153,4 +153,4 @@ o365-extract-contacts.py \
 
 ### Config
 
-Similar to `o365-acquire-mail.py`, `o365-acquire-contacts.py` a config file can be passed, including one or more arguments
+Similar to `o365-acquire-mail.py`, a config file can be passed, including one or more arguments
